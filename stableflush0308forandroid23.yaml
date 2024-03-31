@@ -78,95 +78,102 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"zgj-henis01","type":"vmess","server":"seoul01.zgjok.com","port":443,"cipher":"auto","uuid":"64a60fbd-8843-4f9b-8463-1e44ce71a761","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul01.zgjok.com"}}}
-  - {"name":"zgj-henis02","type":"vmess","server":"seoul02.zgjok.com","port":443,"cipher":"auto","uuid":"1a1e5196-eab4-4772-9012-65c27f19a524","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul02.zgjok.com"}}}
-  - {"name":"zgj-henis03","type":"vmess","server":"seoul03.zgjok.com","port":443,"cipher":"auto","uuid":"72a0dac4-9689-4a57-b164-5c65bfa94772","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul03.zgjok.com"}}}
-  - {"name":"🇭🇰Trojan|香港直连节点01","type":"trojan","server":"hgc1.8ssd3.top","port":17220,"udp":true,"password":"5bc27e21-7139-4d1b-9e04-9418e291baba","sni":"speedtest.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰Trojan|香港直连节点02","type":"trojan","server":"hgc1.8ssd3.top","port":17221,"udp":true,"password":"5bc27e21-7139-4d1b-9e04-9418e291baba","sni":"speedtest.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Sing-box01","type":"vless","server":"ali.055500.xyz","port":80,"uuid":"3232bf97-7422-4679-83e2-c84f4c14f009","tls":false,"servername":"singbox.vwgykbnad.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"singbox.vwgykbnad.workers.dev"}}}
-  - {"name":"Sing-box02","type":"vless","server":"cloudflare.cfgo.cc","port":443,"uuid":"5d5f339c-36d1-4a7a-a37d-df264695ce0e","tls":true,"servername":"2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com","network":"ws","ws-opts":{"path":"/helpsen.pages.dev/proxyIP=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com"}}}
-  - {"name":"Lightsail03","type":"vless","server":"www.csgo.com","port":8443,"uuid":"16bfe1e2-0669-44cb-8c6a-66e7cad43b40","tls":true,"servername":"tunnel.nvoid.live","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"tunnel.nvoid.live"}}}
+  - {"name":"Sing-box01","type":"vmess","server":"seoul02.zgjok.com","port":443,"cipher":"auto","uuid":"1a1e5196-eab4-4772-9012-65c27f19a524","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul02.zgjok.com"}}}
+  - {"name":"Sing-box02","type":"vmess","server":"seoul01.zgjok.com","port":443,"cipher":"auto","uuid":"64a60fbd-8843-4f9b-8463-1e44ce71a761","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul01.zgjok.com"}}}
+  - {"name":"Sing-box03","type":"vmess","server":"seoul03.zgjok.com","port":443,"cipher":"auto","uuid":"72a0dac4-9689-4a57-b164-5c65bfa94772","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul03.zgjok.com"}}}
+  - {"name":"Sing-box04","type":"vmess","server":"seoul02.zgjok.com","port":443,"cipher":"auto","uuid":"1a1e5196-eab4-4772-9012-65c27f19a524","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul02.zgjok.com"}}}
+  - {"name":"🇭🇰Trojan|香港直连节点01","type":"trojan","server":"hgc1.8ssd3.top","port":17220,"udp":true,"password":"5bc27e21-7139-4d1b-9e04-9418e291baba","skip-cert-verify":true,"network":"tcp","ws-opts":{"headers":{"host":"speedtest.net"}}}
+  - {"name":"🇭🇰Trojan|香港直连节点02","type":"trojan","server":"hgc1.8ssd3.top","port":17221,"udp":true,"password":"5bc27e21-7139-4d1b-9e04-9418e291baba","skip-cert-verify":true,"network":"tcp","ws-opts":{"headers":{"host":"speedtest.net"}}}
+  - {"name":"VPS-Vless-dwgan01","type":"vmess","server":"www.kisslady.top","port":37890,"cipher":"auto","uuid":"baabf820-d877-4350-cf59-c1ddb49a5be8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/baabf820"}}
+  - {"name":"VPS-Vless-dwgan02","type":"vless","server":"104.16.44.109","port":443,"uuid":"8e3614bb-8425-45e2-de19-c4b915aaa179","tls":true,"servername":"sj.dadaserver.shop","network":"ws","ws-opts":{"path":"/","headers":{"host":"sj.dadaserver.shop"}}}
+  - {"name":"VPS-Vless-dwgan03","type":"vless","server":"www.csgo.com","port":8443,"uuid":"16bfe1e2-0669-44cb-8c6a-66e7cad43b40","tls":true,"servername":"tunnel.nvoid.live","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"tunnel.nvoid.live"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,14 +196,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - zgj-henis01
-      - zgj-henis02
-      - zgj-henis03
-      - 🇭🇰Trojan|香港直连节点01
-      - 🇭🇰Trojan|香港直连节点02
       - Sing-box01
       - Sing-box02
-      - Lightsail03
+      - Sing-box03
+      - Sing-box04
+      - 🇭🇰Trojan|香港直连节点01
+      - 🇭🇰Trojan|香港直连节点02
+      - VPS-Vless-dwgan01
+      - VPS-Vless-dwgan02
+      - VPS-Vless-dwgan03
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
@@ -2016,52 +2024,6 @@ rules:
   - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
-# 内容：国外媒体列表
-# 更新：2023-01-15 22:06:33
-# 数量：330条
-# ABC
-# AbemaTV
-# All4
-# Amazon
-# AppleNews
-# AppleTV
-# BBCiPlayer
-# Bahamut
-# DAZN
-# Deezer
-# DiscoveryPlus
-# DisneyPlus
-# EncoreTVB
-# FoxNow
-# HBO
-# HBO_GO_HKG
-# HWTV
-# Hulu
-# HuluJapan
-# ITV
-# JOOX
-# Japonx
-# KKBOX
-# KKTV
-# LiTV
-# LineTV
-# My5
-# MyTVSuper
-# Netflix
-# Niconico
-# PBS
-# Pandora
-# Pornhub
-# Qobuz
-# SoundCloud
-# Spotify
-# TIDAL
-# TaiWanGood 台湾好
-# TikTok
-# Twitch
-# ViuTV
-# YouTube
-# YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
 #   - USER-AGENT,AbemaTV*,🌍 国外媒体
@@ -2095,14 +2057,10 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#   - USER-AGENT,AppleNews*,🌍 国外媒体
-#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
