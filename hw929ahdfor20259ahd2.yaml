@@ -125,6 +125,46 @@ proxies:
   - {"name":"🇮🇳印度孟买2","type":"vless","server":"140.245.20.236","port":443,"uuid":"7d10f4d9-8c52-4fe1-9885-28e7ce1a9557","tls":true,"servername":"djdownloadin.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
   - {"name":"🇰🇷韩国首尔","type":"vless","server":"146.56.143.181","port":443,"uuid":"7d10f4d9-8c52-4fe1-9885-28e7ce1a9557","tls":true,"servername":"djdownloadkr.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
   - {"name":"🇰🇷韩国首尔2","type":"vless","server":"132.226.172.30","port":443,"uuid":"7d10f4d9-8c52-4fe1-9885-28e7ce1a9557","tls":true,"servername":"djdownloadkr1.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"firefox"}
+  - {"name":"536a3bc8-VMess_WS","type":"vmess","server":"speedo4603000.buzz","port":443,"cipher":"auto","uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"speedo4603000.buzz","network":"ws","ws-opts":{"path":"/xlhdvws","headers":{"host":"speedo4603000.buzz"}}}
+  - {"name":"536a3bc8-Trojan_gRPC","type":"trojan","server":"speedo4603000.buzz","port":443,"udp":true,"password":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","sni":"speedo4603000.buzz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"xlhdtrojangrpc"},"alpn":["h2"]}
+  - {"name":"3c184cfa-VMess_WS","type":"vmess","server":"speedo4602000.buzz","port":443,"cipher":"auto","uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"speedo4602000.buzz","network":"ws","ws-opts":{"path":"/ajodvws","headers":{"host":"speedo4602000.buzz"}}}
+  - {"name":"3c184cfa-Trojan_gRPC","type":"trojan","server":"speedo4602000.buzz","port":443,"udp":true,"password":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","sni":"speedo4602000.buzz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"ajodtrojangrpc"},"alpn":["h2"]}
+  - {"name":"0216.speedo4602000.buzz","type":"vless","server":"104.16.188.246","port":2083,"uuid":"cb6e6701-d4b4-4c71-8332-8a268cf8bfd3","tls":true,"servername":"0216.speedo4602000.buzz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0216.speedo4602000.buzz"}}}
+  - {"name":"02164.speedo4603000.buzz","type":"vless","server":"104.16.188.246","port":443,"uuid":"63520ae1-9fa4-4147-bd4d-e1dfad639d50","tls":true,"servername":"02164.speedo4603000.buzz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"02164.speedo4603000.buzz"}}}
+  - {"name":"0216jkchen059.jkchen059.workers.dev","type":"vless","server":"104.16.44.144","port":2052,"uuid":"28f85e8c-cf14-47cb-bc4c-d3369b52feca","tls":false,"servername":"0216jkchen059.jkchen059.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0216jkchen059.jkchen059.workers.dev"}}}
+  - {"name":"e483303.jkchen3.workers.dev","type":"vless","server":"172.67.171.208","port":2052,"uuid":"b8f3ec89-f683-4628-a3a0-d02419758aad","tls":false,"servername":"e483303.jkchen3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"e483303.jkchen3.workers.dev"}}}
+  - {"name":"e483302.jkchen3.workers.dev","type":"vless","server":"172.67.171.208","port":2052,"uuid":"f1b27d39-d62e-47b3-9bab-39a3fb62f07e","tls":false,"servername":"e483302.jkchen3.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"e483302.jkchen3.workers.dev"}}}
+  - {"name":"536a3bc8-VLESS_TCP/TLS_Vision","type":"vless","server":"speedo4603000.buzz","port":443,"uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","tls":true,"servername":"speedo4603000.buzz","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"536a3bc8-VLESS_WS","type":"vless","server":"speedo4603000.buzz","port":443,"uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","tls":true,"servername":"speedo4603000.buzz","network":"ws","ws-opts":{"path":"/xlhdws","headers":{"host":"speedo4603000.buzz"}},"client-fingerprint":"chrome"}
+  - {"name":"536a3bc8-vless_grpc","type":"vless","server":"speedo4603000.buzz","port":443,"uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","tls":true,"servername":"speedo4603000.buzz","network":"grpc","grpc-opts":{"grpc-service-name":"xlhdgrpc"},"alpn":["h2"],"client-fingerprint":"chrome"}
+  - {"name":"536a3bc8-vless_reality_vision","type":"vless","server":"speedo4603000.buzz","port":443,"udp":true,"uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","tls":true,"servername":"speedo4603000.buzz","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"LBEMRf90KUUfmZW-gYk-JJJqupGTwciUbf1nO2NJ1Cg","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
+  - {"name":"536a3bc8-vless_reality_grpc","type":"vless","server":"speedo4603000.buzz","port":443,"udp":true,"uuid":"536a3bc8-0872-46c1-bcdc-4dce80ce028e","tls":true,"servername":"speedo4603000.buzz","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"LBEMRf90KUUfmZW-gYk-JJJqupGTwciUbf1nO2NJ1Cg","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
+  - {"name":"3c184cfa-VLESS_TCP/TLS_Vision","type":"vless","server":"speedo4602000.buzz","port":443,"uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","tls":true,"servername":"speedo4602000.buzz","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"3c184cfa-VLESS_WS","type":"vless","server":"speedo4602000.buzz","port":443,"uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","tls":true,"servername":"speedo4602000.buzz","network":"ws","ws-opts":{"path":"/ajodws","headers":{"host":"speedo4602000.buzz"}},"client-fingerprint":"chrome"}
+  - {"name":"3c184cfa-vless_grpc","type":"vless","server":"speedo4602000.buzz","port":443,"uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","tls":true,"servername":"speedo4602000.buzz","network":"grpc","grpc-opts":{"grpc-service-name":"ajodgrpc"},"alpn":["h2"],"client-fingerprint":"chrome"}
+  - {"name":"3c184cfa-vless_reality_vision","type":"vless","server":"34.80.214.150","port":21735,"udp":true,"uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"LaMT1R4JAsJRm5MkijBd3JafAFhNPsRWI5XEtvitGG0","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
+  - {"name":"3c184cfa-vless_reality_grpc","type":"vless","server":"34.80.214.150","port":21735,"udp":true,"uuid":"3c184cfa-2d89-45b5-a1b7-b2d47e512c06","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"LaMT1R4JAsJRm5MkijBd3JafAFhNPsRWI5XEtvitGG0","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
+  - {"name":"3|8V1l.love@xray.com","type":"vless","server":"132.145.92.24","port":25668,"uuid":"bff502f9-3132-4ebf-b419-b11ce3ff5011","tls":false,"servername":"132.145.92.24","network":"tcp"}
+  - {"name":"cjp_196.6","type":"vmess","server":"154.21.196.6","port":29208,"cipher":"auto","uuid":"56b416eb-a65b-4a39-e827-fb9fc8bdcedc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_91.175","type":"vmess","server":"154.21.91.175","port":38472,"cipher":"auto","uuid":"e7e71782-754e-40ff-8eed-7bfeb8f69f08","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"sobi2-ejpbt2my","type":"vless","server":"141.11.1.139","port":51482,"uuid":"d51909c9-e67f-41e6-96aa-770d2b04a243","tls":false,"servername":"141.11.1.139","network":"tcp"}
+  - {"name":"sg_19.223","type":"ss","server":"140.245.63.222","port":14288,"password":"XGLPLJWKwR","cipher":"aes-128-gcm"}
+  - {"name":"cjp_19.223","type":"vmess","server":"154.12.19.223","port":43945,"cipher":"auto","uuid":"90015a1e-c600-410c-db50-8db6c5dd9e22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_36.34","type":"vmess","server":"154.12.36.34","port":39740,"cipher":"auto","uuid":"79462f7a-3848-4be0-d933-d25481bc867d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_194.220","type":"vmess","server":"154.21.194.220","port":51536,"cipher":"auto","uuid":"4104238b-c399-43ef-9c36-d0a64ab0b6ef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_194.248","type":"vmess","server":"154.21.194.248","port":19774,"cipher":"auto","uuid":"d528456c-3098-4299-d6d6-55c5914c4f16","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_255.158","type":"vmess","server":"156.238.255.158","port":26077,"cipher":"auto","uuid":"97b5c952-a118-4e97-c456-3981a4dbbf58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_255.46","type":"vmess","server":"156.238.255.46","port":28739,"cipher":"auto","uuid":"3b94acba-7813-432f-b069-3c4637a84729","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_189.236","type":"vmess","server":"156.251.189.236","port":27931,"cipher":"auto","uuid":"a5c73647-f88f-4983-ff70-6dbf9b8da850","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_160.123","type":"vmess","server":"38.147.160.123","port":50276,"cipher":"auto","uuid":"43b41439-5697-47b4-b296-153fcfd62cd6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_201.33","type":"vmess","server":"47.239.201.33","port":36021,"cipher":"auto","uuid":"3710713b-8e57-4141-eb22-b97732c27185","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_229.56","type":"vmess","server":"47.239.229.56","port":28499,"cipher":"auto","uuid":"e0bacf51-a33f-459f-a445-50dbc4f6fc2e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_239.115","type":"vmess","server":"47.239.239.115","port":36697,"cipher":"auto","uuid":"dfdf65ff-3b69-4a69-a2a6-f953c5fd4483","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_242.179","type":"vmess","server":"47.239.242.179","port":30334,"cipher":"auto","uuid":"991fb5f6-0b7b-4ef7-bc61-21e5a329c5f1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_243.185","type":"vmess","server":"47.239.243.185","port":17810,"cipher":"auto","uuid":"49202081-feda-4277-db6f-87200446d158","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_42.58","type":"vmess","server":"47.239.42.58","port":17849,"cipher":"auto","uuid":"c0829a4a-6ba0-4cc8-ff87-82785166f14b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_6.177","type":"vmess","server":"47.239.6.177","port":24259,"cipher":"auto","uuid":"52899e7c-bc25-49eb-86e4-41496d703c3f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"cjp_90.48","type":"vmess","server":"54.238.90.48","port":15610,"cipher":"auto","uuid":"ba007b4c-4168-4604-ed4e-539456928d45","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -178,6 +218,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -231,6 +311,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -284,6 +404,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: 📲 电报信息
     type: select
     proxies:
@@ -336,6 +496,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -388,6 +588,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -440,6 +680,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -509,6 +789,46 @@ proxy-groups:
       - 🇮🇳印度孟买2
       - 🇰🇷韩国首尔
       - 🇰🇷韩国首尔2
+      - 536a3bc8-VMess_WS
+      - 536a3bc8-Trojan_gRPC
+      - 3c184cfa-VMess_WS
+      - 3c184cfa-Trojan_gRPC
+      - 0216.speedo4602000.buzz
+      - 02164.speedo4603000.buzz
+      - 0216jkchen059.jkchen059.workers.dev
+      - e483303.jkchen3.workers.dev
+      - e483302.jkchen3.workers.dev
+      - 536a3bc8-VLESS_TCP/TLS_Vision
+      - 536a3bc8-VLESS_WS
+      - 536a3bc8-vless_grpc
+      - 536a3bc8-vless_reality_vision
+      - 536a3bc8-vless_reality_grpc
+      - 3c184cfa-VLESS_TCP/TLS_Vision
+      - 3c184cfa-VLESS_WS
+      - 3c184cfa-vless_grpc
+      - 3c184cfa-vless_reality_vision
+      - 3c184cfa-vless_reality_grpc
+      - 3|8V1l.love@xray.com
+      - cjp_196.6
+      - cjp_91.175
+      - sobi2-ejpbt2my
+      - sg_19.223
+      - cjp_19.223
+      - cjp_36.34
+      - cjp_194.220
+      - cjp_194.248
+      - cjp_255.158
+      - cjp_255.46
+      - cjp_189.236
+      - cjp_160.123
+      - cjp_201.33
+      - cjp_229.56
+      - cjp_239.115
+      - cjp_242.179
+      - cjp_243.185
+      - cjp_42.58
+      - cjp_6.177
+      - cjp_90.48
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
