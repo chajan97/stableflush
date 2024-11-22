@@ -78,137 +78,368 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"bwg-gia01","type":"vmess","server":"167.234.220.70","port":43075,"cipher":"auto","uuid":"b3def75f-6c09-417e-dd1d-a6579dd34add","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"bwg-gia02","type":"vless","server":"107.148.43.253","port":18846,"uuid":"c3888126-72ef-40d2-eeee-b2302eb20756","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"bwg-gia03","type":"vless","server":"96.45.188.130","port":37308,"udp":true,"uuid":"5ab3c025-124d-4746-e086-18a77f7aba31","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"AWS|US|01","type":"vmess","server":"167.234.220.70","port":43075,"cipher":"auto","uuid":"b3def75f-6c09-417e-dd1d-a6579dd34add","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"AWS|JP|02","type":"vmess","server":"64.110.80.180","port":36985,"cipher":"auto","uuid":"23a55741-e258-48ac-dd1e-b86d6b5d03c0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CDN-CT1","type":"vless","server":"cdn-ct3.datatoy-studio.com","port":8080,"uuid":"341fded1-dc18-4f17-9065-75c6e9b06307","tls":false,"servername":"cdn.duyimin.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"cdn.duyimin.workers.dev"}}}
-  - {"name":"CDN-CT2","type":"vless","server":"cdn-ct4.datatoy-studio.com","port":8080,"uuid":"341fded1-dc18-4f17-9065-75c6e9b06307","tls":false,"servername":"cdn.duyimin.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"cdn.duyimin.workers.dev"}}}
-  - {"name":"CDN-CM1","type":"vless","server":"cdn-cm1.datatoy-studio.com","port":8080,"uuid":"341fded1-dc18-4f17-9065-75c6e9b06307","tls":false,"servername":"cdn.duyimin.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"cdn.duyimin.workers.dev"}}}
-  - {"name":"CDN-CM2","type":"vless","server":"cdn-cm5.datatoy-studio.com","port":8080,"uuid":"341fded1-dc18-4f17-9065-75c6e9b06307","tls":false,"servername":"cdn.duyimin.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"cdn.duyimin.workers.dev"}}}
-  - {"name":"jumpershao01","type":"vmess","server":"cloud.jumpershao.top","port":519,"cipher":"auto","uuid":"4e0867f8-2d05-460e-8d54-2c23cbccf50d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cfe944/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"jumpershao02","type":"vmess","server":"cloud.jumpershao.top","port":519,"cipher":"auto","uuid":"4e0867f8-2d05-460e-8d54-2c23cbccf50d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cfe944/","headers":{"host":"cloud.jumpershao.top"}}}
-  - {"name":"VLESS_BWG_JPN01","type":"vless","server":"vps-bwg-jpn.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_JPN02","type":"vless","server":"vps-bwg-jpn.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_USA01","type":"vless","server":"vps-bwg-usa.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
+  - {"name":"套餐到期：2025-11-22","type":"hysteria2","server":"163.123.192.167","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城_gpt","type":"hysteria2","server":"163.123.192.167","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城1号","type":"hysteria2","server":"129.153.75.202","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城2号","type":"hysteria2","server":"129.153.80.156","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城3号","type":"hysteria2","server":"158.101.37.59","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城4号","type":"hysteria2","server":"129.146.249.162","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇯🇵日本","type":"hysteria2","server":"131.186.42.162","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇸🇬新加坡hy","type":"hysteria2","server":"140.245.52.9","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇫🇷法国hy","type":"hysteria2","server":"62.210.71.30","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇸🇪瑞典斯德哥尔摩-1.5倍率","type":"hysteria2","server":"129.151.193.163","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇰🇷韩国首尔-3倍率","type":"hysteria2","server":"193.123.229.26","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇰🇷韩国首尔2-3倍率","type":"hysteria2","server":"146.56.148.206","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇩🇪德国法兰克福","type":"hysteria2","server":"138.2.179.192","port":1,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇩🇪德国法兰克福2","type":"hysteria2","server":"152.70.176.68","port":1,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇧🇷巴西圣保罗-1.5倍率","type":"hysteria2","server":"144.22.129.240","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国芝加哥","type":"hysteria2","server":"149.130.215.22","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"🇦🇪迪拜-1.2倍率","type":"hysteria2","server":"139.185.32.100","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇦🇪迪拜2-1.5倍率","type":"hysteria2","server":"139.185.34.29","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇰🇷韩国春川-1.5倍率","type":"hysteria2","server":"146.56.114.61","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇰🇷韩国春川2-1.5倍率","type":"hysteria2","server":"152.67.200.22","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇦🇺澳大利亚悉尼-1.5倍率","type":"hysteria2","server":"159.13.38.138","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇦🇺澳大利亚墨尔本-1.5倍率","type":"hysteria2","server":"152.69.186.200","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇮🇳印度孟买-1.5倍率","type":"hysteria2","server":"144.24.99.141","port":53,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇮🇳印度海得拉巴-1.5倍率","type":"hysteria2","server":"144.24.146.216","port":53,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.hoyoverse.com","skip-cert-verify":true}
+  - {"name":"🇬🇧英国伦敦-2倍率","type":"hysteria2","server":"132.145.52.10","port":65535,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇬🇧英国伦敦2-1.8倍率","type":"hysteria2","server":"132.145.28.17","port":65535,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇿🇦非洲约翰内斯堡-3.5倍率","type":"hysteria2","server":"129.151.169.64","port":65535,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇨🇦加拿大多伦多-1.5倍率","type":"hysteria2","server":"40.233.77.86","port":65535,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇲🇽墨西哥克雷塔罗","type":"hysteria2","server":"140.84.178.54","port":50000,"password":"329b7fa4-02db-43de-94d1-789ce2aba5e6","sni":"www.microsoft.com","skip-cert-verify":true}
+  - {"name":"🇺🇸美国凤凰城-0.1倍","type":"vless","server":"152.70.137.194","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownload-us.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
+  - {"name":"🇩🇪德国-1倍","type":"vless","server":"89.168.85.62","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownload-de.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"firefox"}
+  - {"name":"🇺🇸美国凤凰城-三网-0.1倍","type":"vless","server":"141.193.68.81","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadus.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
+  - {"name":"🇺🇸美国1号-0.1倍","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"k12us1.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/us1","headers":{"host":"k12us1.djjc.sbs"}},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸美国3号-0.1倍","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"k11us3.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/us3","headers":{"host":"k11us3.djjc.sbs"}},"client-fingerprint":"ios"}
+  - {"name":"🇺🇸美国4号-0.1倍","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"kus4.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/us4","headers":{"host":"kus4.djjc.sbs"}},"client-fingerprint":"ios"}
+  - {"name":"🇯🇵日本-0.1—流媒体","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"k5jp1.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/jp1","headers":{"host":"k5jp1.djjc.sbs"}},"client-fingerprint":"safari"}
+  - {"name":"🇫🇷法国","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"k2fr1.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/fr1","headers":{"host":"k2fr1.djjc.sbs"}},"client-fingerprint":"ios"}
+  - {"name":"🇫🇷法国2","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"kfr2.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/fr2","headers":{"host":"kfr2.djjc.sbs"}},"client-fingerprint":"safari"}
+  - {"name":"🇩🇪德国","type":"vless","server":"104.19.37.97","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"k10de1.djjc.sbs","network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"k10de1.djjc.sbs"}},"client-fingerprint":"ios"}
+  - {"name":"🇬🇧英国伦敦-1倍","type":"vless","server":"143.47.249.1","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownload-gb.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"firefox"}
+  - {"name":"🇹🇼台湾—TK专线","type":"vless","server":"c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadtw1.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
+  - {"name":"🇭🇰香港hkt-2倍","type":"vless","server":"c8217-b2a.h2.49d2.5e11.613.b297.djjsvip.cfd","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadhk1.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
+  - {"name":"🇭🇰香港hkt2-1.5倍","type":"vless","server":"c8217-b2a.h3.49d2.5e11.613.b297.djjsvip.cfd","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadhk2.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
+  - {"name":"🇮🇳印度孟买","type":"vless","server":"140.245.19.196","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadin.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
+  - {"name":"🇮🇳印度孟买2","type":"vless","server":"140.245.20.236","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadin.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
+  - {"name":"🇰🇷韩国首尔","type":"vless","server":"146.56.143.181","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadkr.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
+  - {"name":"🇰🇷韩国首尔2","type":"vless","server":"132.226.172.30","port":443,"uuid":"329b7fa4-02db-43de-94d1-789ce2aba5e6","tls":true,"servername":"djdownloadkr1.xn--4gq62f52gopi49k.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"firefox"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -231,20 +462,53 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - bwg-gia01
-      - bwg-gia02
-      - bwg-gia03
-      - AWS|US|01
-      - AWS|JP|02
-      - CDN-CT1
-      - CDN-CT2
-      - CDN-CM1
-      - CDN-CM2
-      - jumpershao01
-      - jumpershao02
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA01
+      - 套餐到期：2025-11-22
+      - 🇺🇸美国凤凰城_gpt
+      - 🇺🇸美国凤凰城1号
+      - 🇺🇸美国凤凰城2号
+      - 🇺🇸美国凤凰城3号
+      - 🇺🇸美国凤凰城4号
+      - 🇯🇵日本
+      - 🇸🇬新加坡hy
+      - 🇫🇷法国hy
+      - 🇸🇪瑞典斯德哥尔摩-1.5倍率
+      - 🇰🇷韩国首尔-3倍率
+      - 🇰🇷韩国首尔2-3倍率
+      - 🇩🇪德国法兰克福
+      - 🇩🇪德国法兰克福2
+      - 🇧🇷巴西圣保罗-1.5倍率
+      - 🇺🇸美国芝加哥
+      - 🇦🇪迪拜-1.2倍率
+      - 🇦🇪迪拜2-1.5倍率
+      - 🇰🇷韩国春川-1.5倍率
+      - 🇰🇷韩国春川2-1.5倍率
+      - 🇦🇺澳大利亚悉尼-1.5倍率
+      - 🇦🇺澳大利亚墨尔本-1.5倍率
+      - 🇮🇳印度孟买-1.5倍率
+      - 🇮🇳印度海得拉巴-1.5倍率
+      - 🇬🇧英国伦敦-2倍率
+      - 🇬🇧英国伦敦2-1.8倍率
+      - 🇿🇦非洲约翰内斯堡-3.5倍率
+      - 🇨🇦加拿大多伦多-1.5倍率
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇺🇸美国凤凰城-0.1倍
+      - 🇩🇪德国-1倍
+      - 🇺🇸美国凤凰城-三网-0.1倍
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇺🇸美国4号-0.1倍
+      - 🇯🇵日本-0.1—流媒体
+      - 🇫🇷法国
+      - 🇫🇷法国2
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇭🇰香港hkt-2倍
+      - 🇭🇰香港hkt2-1.5倍
+      - 🇮🇳印度孟买
+      - 🇮🇳印度孟买2
+      - 🇰🇷韩国首尔
+      - 🇰🇷韩国首尔2
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
